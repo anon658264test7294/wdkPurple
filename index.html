@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="color-scheme" content="light dark">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>{{ site.title }}</title>
+<link rel="stylesheet" type="text/css" href="weui.css">
+<link rel="stylesheet" type="text/css" href="sougou_profile55871f.css">
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="sougou_profile_pc55871f.css">
+<![endif]-->
+</head>
+<body class="zh_CN wx_wap_page   discuss_tab  appmsg_skin_default appmsg_style_default ">
+<div class="page_profile_info">
+    <div class="page_profile_info_inner">
+        <div class="profile_info_area">
+            <div class="profile_info_group">
+                <span class="radius_avatar profile_avatar">
+                                        <img src="logo_640px.png">
+                                    </span>
+                <div class="profile_info">
+                    <strong class="profile_nickname">{{ site.title }}</strong>
+                                        <p class="profile_account">微信号: 不存在</p>
+                                    </div>
+            </div>
+            <ul class="profile_desc">
+                <li>
+                    <label class="profile_desc_label" for="">功能介绍</label>
+                    <div class="profile_desc_value">{{ site.description }}</div>
+                </li>
+                <li>
+                    <label class="profile_desc_label" for="">帐号主体</label>
+                    <div class="profile_desc_value"><img class="icon_verify success" src="icon_verify_success.png">个人</div>
+                </li>
+            </ul>
+        </div>
+        <div class="weui_category_title">最近10条群发</div>
+        <div class="weui_msg_card_list" id="history">
+
+        </div>
+        <div class="msg_card_tips">仅显示最近10条群发</div>
+
+        <div class="loadmore" style="display:none;" id="js_loading">
+            <div class="tips_wrp"><i class="icon_loading"></i><span class="tips">正在加载</span></div>
+        </div>
+        <div class="loadmore with_line" style="display:none;" id="js_nomore">
+            <div class="tips_wrp"><span class="tips">已无更多</span></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+

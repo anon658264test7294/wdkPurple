@@ -41,16 +41,17 @@
                 </li>
             </ul>
         </div>
-        <div class="weui_category_title">最近10条群发</div>
+        <div class="weui_category_title">文章列表</div>
         <div class="weui_msg_card_list" id="history">
-
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href='{{ post.url }}'>{{ post.title }} | {{ post.date | date: "%Y-%m-%d" }}</a>
+  </li>
+{% endfor %}
+</ul>
         </div>
-        <div class="msg_card_tips">仅显示最近10条群发</div>
-
-        <div class="loadmore" style="display:none;" id="js_loading">
-            <div class="tips_wrp"><i class="icon_loading"></i><span class="tips">正在加载</span></div>
-        </div>
-        <div class="loadmore with_line" style="display:none;" id="js_nomore">
+        <div class="loadmore with_line" id="js_nomore">
             <div class="tips_wrp"><span class="tips">已无更多</span></div>
         </div>
     </div>

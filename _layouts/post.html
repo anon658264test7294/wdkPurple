@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="color-scheme" content="light dark">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>{{ page.title }}</title>
+<link rel="stylesheet" type="text/css" href="weui.css">
+<link rel="stylesheet" type="text/css" href="post.css">
+</head>
+<body id="activity-detail" class="zh_CN wx_wap_page appmsg_desktop_fontsize_2 mm_appmsg discuss_tab appmsg_skin_default appmsg_style_default not_in_mm">
+<div id="js_article" class="rich_media">
+	<div class="rich_media_inner">
+		<div id="page-content" class="rich_media_area_primary">
+			<div class="rich_media_area_primary_inner">
+				<div id="img-content" class="rich_media_wrp">
+					<h2 class="rich_media_title" id="activity-name">{{ page.title }}</h2>
+					<div id="meta_content" class="rich_media_meta_list">
+						<span id="copyright_logo" class="rich_media_meta icon_appmsg_tag appmsg_title_tag">原创</span>
+						<span class="rich_media_meta rich_media_meta_text">{{ page.author }}</span>
+						<span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
+							<a href="javascript:" id="js_name">{{ site.title }}</a>
+						</span>
+						<em id="publish_time" class="rich_media_meta rich_media_meta_text">{{ page.date | date: "%Y-%m-%d" }}</em>
+					</div>
+				</div>
+				<div class="rich_media_content " id="js_content" style="visibility: visible;">{{ content }}</div>
+                <div class="rich_media_tool" id="js_toobar3">
+                    <div class="weui-flex">
+                        <div class="weui-flex__item">
+                            <div id="js_read_area3" role="option" class="media_tool_meta tips_global_primary meta_primary">
+                                <span id="readTxt">阅读</span>
+                                <span id="readNum3">295</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weui-flex sns_opr_area" id="js_bottom_opr_right">
+                        <div class="weui-flex__item">
+                            <span class="media_tool_meta meta_primary meta_share js_media_tool_meta" id="js_bottom_share">
+                                <button class="sns_opr_btn sns_share_btn" id="js_bottom_share_btn">
+									<span class="sns_opr_gap">分享</span>
+								</button>
+                            </span>
+                            <span class="media_tool_meta meta_primary meta_collect js_media_tool_meta" id="js_bottom_collect">
+                                <button class="sns_opr_btn sns_collect_btn" id="js_bottom_collect_btn">
+									<span class="sns_opr_gap">收藏</span>
+								</button>
+                            </span>
+                        </div>
+                        <span class="media_tool_meta meta_extra meta_praise js_media_tool_meta" id="like_old">
+                            <button class="sns_opr_btn sns_praise_btn" id="js_bottom_zan_btn">
+								<span class="sns_opr_gap" id="js_parise_wording">赞</span>
+								<span class="sns_opr_num sns_opr_gap" id="likeNum_old">333</span>
+							</button>
+                        </span>
+                        <span class="media_tool_meta meta_extra meta_like js_media_tool_meta" id="like3">
+                            <button class="sns_opr_btn sns_like_btn" id="js_like_btn">
+								<span class="sns_opr_gap" id="js_like_wording">在看</span>
+								<span class="sns_opr_num sns_opr_gap" id="likeNum3">666</span>
+							</button>
+                        </span>
+                    </div>
+                </div>
+			</div>
+		</div>
+        <!--<div class="rich_media_area_extra">
+            <div class="rich_media_area_extra_inner">
+                <div class="related_container" id="js_related_container">
+					<div class="relate_mod_transition function_mod js_related_area" style="opacity: 1; overflow: visible; height: 21.5969em; margin: 12px 0px; transition: none 0s ease 0s;">
+						<div class="function_mod_index js_related_main">
+							<div class="function_hd js_related_title">
+								喜欢此内容的人还喜欢
+							</div>
+							<div class="function_bd">
+								<div class="relate_article_index_list relate_article_list js_related_list" style="height: auto; opacity: 1;">
+									<a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg js_related_item">
+										<div class="weui-media-box__bd">
+											<div class="ellipsis_relate_title weui_ellipsis_mod_wrp relate_article_default">
+												<div class="weui_ellipsis_mod">
+													<div class="weui_ellipsis_mod_inner">
+														测试标题
+													</div>
+												</div>
+												<div class="weui_ellipsis_fake_mod">
+													<div class="weui_ellipsis_fake_inner">
+														测试标题
+													</div>
+													<div class="weui_ellipsis_fake_placeholder"></div>
+													<div class="weui_ellipsis_fake_extra">...</div>
+												</div>
+											</div>
+											<div class="weui-media-box__info">
+												<div class="weui-media-box__info__inner">
+													<div class="weui-media-box__info__meta"></div>
+													<div class="js_profile relate_profile relate_article_panel_active">
+														<div class="weui-media-box__info__meta">
+															<span class="relate_profile_nickname">测试名称</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="weui-media-box__ft" style="background-image:url(logo_640px.png)"></div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>-->
+	</div>
+</div>
+</body>
+</html>
+

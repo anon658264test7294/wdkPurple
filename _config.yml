@@ -5,4 +5,4 @@ baseurl: / # the subpath of your site, e.g. /blog/
 
 # Build settings
 markdown: kramdown
-permalink: /article-:year-:month-:day-:entitle:output_ext
+permalink: /article-:year-:month-:day:output_ext

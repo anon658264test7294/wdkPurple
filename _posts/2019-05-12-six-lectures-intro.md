@@ -1,5 +1,6 @@
 ---
 layout: post
+entitle: "six lectures intro"
 title: "酷儿理论六讲 | 引言 · 反直觉、质疑与必要性"
 date: 2019-5-12 12:00:00
 author: "狐狸先生"
